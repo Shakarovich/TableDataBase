@@ -14,3 +14,31 @@ a {
 * {
   box-sizing: border-box;
 }
+
+input,
+select,
+button {
+  border: none;
+  outline: none;
+  background: none;
+  border: 1px solid black;
+  padding: 8px;
+}
+
+.screen {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  flex-direction: column;
+  align-items: center;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 1140px;
+  padding: 30px;
+}
+.head {
+  display: flex;
+  justify-content: space-between;
+}
